@@ -1,2 +1,2 @@
 # demeter-boards
-All EE related files will be here
+This is where all the EE related files will go into
