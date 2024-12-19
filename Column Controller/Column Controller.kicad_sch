@@ -1,0 +1,1022 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2e7c69e2-84ab-42c9-8893-f7dedf000d02")
+	(paper "A5")
+	(title_block
+		(title "${SHEETNAME}")
+		(date "2024-11-17")
+		(rev "1.0.0")
+		(company "Demeter")
+		(comment 1 "Akshat Doctor")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1) (xy 133.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b3a922-92b3-42d8-b0dc-577255105b27")
+	)
+	(wire
+		(pts
+			(xy 78.74 33.02) (xy 133.35 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e73dd54-64d5-4b56-978d-63cdf7967e4c")
+	)
+	(wire
+		(pts
+			(xy 78.74 62.23) (xy 104.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3421bc97-06a6-4d8e-93fe-0030c2197f0d")
+	)
+	(wire
+		(pts
+			(xy 78.74 95.25) (xy 102.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1f681a-f5ab-4a05-a1f7-5e65e64d3544")
+	)
+	(wire
+		(pts
+			(xy 133.35 54.61) (xy 104.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2ab627-3428-4880-940b-a6ab81bb5faf")
+	)
+	(wire
+		(pts
+			(xy 78.74 92.71) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa2877a-bf1c-4cf2-a8a3-e1b3c2d82a22")
+	)
+	(wire
+		(pts
+			(xy 78.74 78.74) (xy 102.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d38a55b-c527-4b26-8b07-65e2b9434b8b")
+	)
+	(wire
+		(pts
+			(xy 104.14 62.23) (xy 104.14 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7503e2-495b-48b2-b2bb-9ebe569dea51")
+	)
+	(wire
+		(pts
+			(xy 104.14 54.61) (xy 104.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec0201a-f3b9-47d4-b338-775c6907aa0f")
+	)
+	(wire
+		(pts
+			(xy 78.74 35.56) (xy 133.35 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80180c45-6144-443d-a502-5770bbeebace")
+	)
+	(wire
+		(pts
+			(xy 78.74 40.64) (xy 133.35 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810a32de-49fd-4ae6-aba5-9b9215ea5883")
+	)
+	(wire
+		(pts
+			(xy 78.74 76.2) (xy 102.87 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963d82d5-dc57-480f-8008-4da79b0de26c")
+	)
+	(wire
+		(pts
+			(xy 104.14 66.04) (xy 133.35 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caac2663-5d1e-4b4a-bc65-b475054bae26")
+	)
+	(wire
+		(pts
+			(xy 104.14 59.69) (xy 78.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8e7778-9948-48aa-90c7-a4c2df8dbef7")
+	)
+	(text "Mounting Holes: M3 Clearance"
+		(exclude_from_sim no)
+		(at 44.196 113.03 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aae6ae25-4d23-435b-bc73-c3e1ddbbb561")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 120.65 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c315f88-84e7-4787-9d09-a08a06e5e9fe")
+		(property "Reference" "H1"
+			(at 27.94 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 27.94 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 25.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 38.1 120.65 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18822a4a-15e1-4d20-a654-a0794153ad9d")
+		(property "Reference" "H2"
+			(at 40.64 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 40.64 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 38.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 38.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 120.65 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d4cd228-7bce-4c3b-a31a-888097f720f7")
+		(property "Reference" "H4"
+			(at 66.04 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 66.04 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 120.65 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "851130cc-a375-4e8c-9935-88c76a5432e4")
+		(property "Reference" "H3"
+			(at 53.34 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 53.34 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 50.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 73.66)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "22e8919e-8e3e-4184-b598-1ae2719aecd1")
+		(property "Sheetname" "Relay Controller 2"
+			(at 102.87 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay.kicad_sch"
+			(at 102.87 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CURR_OUT" output
+			(at 102.87 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b481f14-f389-40fa-a88e-5aa7465ea153")
+		)
+		(pin "RELAY_IN" input
+			(at 102.87 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4708199e-31a1-4ed2-9777-b15596f5664c")
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 30.48)
+		(size 20.32 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "2519d2dc-6e29-4199-85c2-385efb7af52b")
+		(property "Sheetname" "Ext Sensors"
+			(at 133.35 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ext_Sensors.kicad_sch"
+			(at 133.35 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FLOW_OUT_3V3" output
+			(at 133.35 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c91695fd-e721-4a81-9c99-75e07dc50be0")
+		)
+		(pin "TDS_OUT_3V3" output
+			(at 133.35 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5488d7a4-9882-4d33-a190-55a4eead76d2")
+		)
+		(pin "pH_OUT_3V3" output
+			(at 133.35 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a6fd53f-64ab-44a6-a5cd-7ca60087c707")
+		)
+		(pin "LOAD" bidirectional
+			(at 133.35 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "819dc811-69fc-4815-8eb5-29283a360917")
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 67.31)
+		(size 33.02 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "30850d4c-8ac8-4527-9b50-b41753f69690")
+		(property "Sheetname" "Block Diagram"
+			(at 19.05 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Block_Diagram.kicad_sch"
+			(at 19.05 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 90.17)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "528a3885-cc43-4a9d-ba3a-5d801405e9d1")
+		(property "Sheetname" "Relay Controller 1"
+			(at 102.87 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay.kicad_sch"
+			(at 102.87 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CURR_OUT" output
+			(at 102.87 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4efd2049-0b43-42a1-81e4-a74c8dfb9acd")
+		)
+		(pin "RELAY_IN" input
+			(at 102.87 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89908014-2f5c-4de4-b8f0-c51e5357d802")
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 63.5)
+		(size 20.32 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "5c30f80d-8782-4919-afd2-faea909f4163")
+		(property "Sheetname" "Motor Controller 2"
+			(at 133.35 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor.kicad_sch"
+			(at 133.35 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOTOR" bidirectional
+			(at 133.35 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a97da28e-f334-4c31-b3d3-e5b92ed6a512")
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 52.07)
+		(size 20.32 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "757e1b02-1bd4-451a-836f-2ea94441b2c5")
+		(property "Sheetname" "Motor Controller 1"
+			(at 133.35 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor.kicad_sch"
+			(at 133.35 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOTOR" bidirectional
+			(at 133.35 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "51800d8c-da79-4526-8dd6-b0e43c24a276")
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 30.48)
+		(size 20.32 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "cffb992a-3a2c-4e9c-a3ef-b8f2836e6b01")
+		(property "Sheetname" "Power"
+			(at 19.05 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 19.05 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 30.48)
+		(size 22.86 68.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "ff0e155c-0523-4dda-84c1-8020919eea6e")
+		(property "Sheetname" "Microcontroller"
+			(at 55.88 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 55.88 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FLOW_IN" input
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10733fc9-50cd-4bca-8f74-fd316e392f28")
+		)
+		(pin "TDS_IN" input
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "999f696f-5993-4f7a-ab57-cd5192ab3a23")
+		)
+		(pin "pH_IN" input
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3c0f76a-363f-480b-8fe9-9eb0ebcced48")
+		)
+		(pin "LOAD" bidirectional
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "77948dbd-593f-489c-b9d0-e5f3dc9f10c6")
+		)
+		(pin "VALVE_EN_2" output
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7363f54b-2be2-43bd-b33e-022b8ef90f62")
+		)
+		(pin "VALVE_CURR_IN_1" input
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f38f43e6-8b1e-473c-a781-5bf426a7b51c")
+		)
+		(pin "VALVE_CURR_IN_2" input
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf883bdc-5507-4628-9924-8de3c69d0301")
+		)
+		(pin "VALVE_EN_1" output
+			(at 78.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "daa4e7fc-bba9-45cb-b958-360924a10d65")
+		)
+		(pin "MOTOR_1" bidirectional
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c0c620c-6518-4cf1-bc49-eaca1c09041f")
+		)
+		(pin "MOTOR_2" bidirectional
+			(at 78.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1294c662-1204-4236-9352-d3405d5e503b")
+		)
+		(instances
+			(project "Column Controller"
+				(path "/2e7c69e2-84ab-42c9-8893-f7dedf000d02"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

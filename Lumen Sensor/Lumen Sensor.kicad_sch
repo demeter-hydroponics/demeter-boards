@@ -1,0 +1,59 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "66a407ee-605d-437d-97ce-0b951c217693")
+	(paper "A4")
+	(title_block
+		(title "${SHEETNAME}")
+		(date "2024-11-25")
+		(rev "1.0.0")
+		(company "Demeter ")
+		(comment 1 "Akshat Doctor")
+	)
+	(lib_symbols)
+	(sheet
+		(at 36.83 80.01)
+		(size 35.56 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "6e71baa9-38d4-44c7-ba6b-dd5b52ddab5c")
+		(property "Sheetname" "Lumen Board"
+			(at 36.83 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lumen.kicad_sch"
+			(at 36.83 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Lumen Sensor"
+				(path "/66a407ee-605d-437d-97ce-0b951c217693"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
