@@ -488,10 +488,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Fabrication Outputs/GERBER/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "TOF Sensor.step",
       "svg": "",
       "vrml": ""
     },

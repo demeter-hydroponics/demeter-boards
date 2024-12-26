@@ -100,7 +100,7 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -126,12 +126,12 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Fabrication Outputs/GERBER/")
 		)
 	)
 	(net 0 "")
@@ -425,7 +425,7 @@
 			)
 		)
 		(property "Value" "VL53L0CXV0DH1"
-			(at 0 2.3 270)
+			(at 0 2.3 -90)
 			(layer "F.Fab")
 			(uuid "a98bfb8d-dd45-4e75-bc34-0b9bce326fe3")
 			(effects
@@ -671,7 +671,7 @@
 			(uuid "63094724-b860-498d-ac6b-3b46d97f1195")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3b8ae343-3ce9-435a-8850-ee0b91d509fb")
 			(effects
@@ -12595,7 +12595,7 @@
 			)
 		)
 		(property "Value" "DMP1045U-7"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "751c2f7c-a9d3-4831-ae5d-2c77756a4453")
 			(effects
@@ -12801,7 +12801,7 @@
 			(uuid "fb5cd3ee-58e7-4bbf-b625-f541f82948e7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "050ac153-91a0-419f-bfac-f10c122b5d35")
 			(effects
@@ -13083,7 +13083,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at -2.5 0.1 270)
+			(at -2.5 0.1 -90)
 			(layer "F.SilkS")
 			(uuid "4fd01dfd-c532-44f8-b413-e99898c8b8d8")
 			(effects
@@ -13094,7 +13094,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "4c8d7e3b-49c8-4072-9217-132a0ed2467c")
 			(effects
@@ -13298,7 +13298,7 @@
 			(uuid "39f0c1fa-2a1e-47bf-bbb4-ae2b78956772")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "a5e9d31c-741e-422d-b9df-54ff8e7dd594")
 			(effects
@@ -13719,7 +13719,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at 0 -1.8 360)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "edc81c1b-cb71-4ca8-b313-e342a2f9930c")
 			(effects
@@ -13730,7 +13730,7 @@
 			)
 		)
 		(property "Value" "QTLP601CRTR"
-			(at 47.955 16.34 360)
+			(at 47.955 16.34 0)
 			(layer "F.Fab")
 			(uuid "d0337f3b-13ca-41b0-82ec-32b600645cf0")
 			(effects
@@ -13954,7 +13954,7 @@
 			(uuid "597c6a8a-e38f-4bd3-84f0-4ec623d8eed8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cf16bde2-f244-4e1b-bbd0-a7f3e9f7435e")
 			(effects
